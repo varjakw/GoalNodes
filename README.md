@@ -23,4 +23,11 @@ Modify frontier search to define the predicates:
 breadth1st(+Start, ?Found, +Seed, +Target)
 depth1st(+Start, ?Found, +Seed, +Target)
 ```
-that will search breadth-first and depth-first respectively for a ```Target``` goal node ```Found``` linked to ```Start``` by ```Seed```-arcs
+that will search breadth-first and depth-first respectively for a ```Target```-goal node ```Found``` linked to ```Start``` by ```Seed```-arcs
+
+So we start with a particular node called ```Start``` and then we keep searching until we find the goal node ```Found```. We assume that ```Seed``` and ```Target``` are specified. 
+
+The plus means these are instantiated. So ```Start``` could be instantiated to 1, ```Seed``` could be instantiated to 3 and the ```Target``` could be instantiated to 13. And we are trying to find ```Found``` using breadth-first and depth-first modified frontier searches.
+
+
+See exercise.pl

@@ -1,2 +1,2 @@
 # PrologGoalNodes
-Small Prolgo exercise looking at the arc predicate and Seeds.
+Small Prolog exercise looking at the arc predicate and Seeds.
